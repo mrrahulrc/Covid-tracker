@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+*{
+	margin: 0;
+	padding-top: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* header */
+.header{
+	height: 100vh;
+	width: 100%;
+	background-image: url('./images/bg-i.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* navbar */
+.main-header{
+	width: 90%;
+	height: 170px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 105px;
+}
+
+
+.main-header .main-header-content {
+	font-size: 1.5rem;
+}
+
+#content-padding{
+	padding-left: 110px;
+}
+
+.body{
+	height: 75%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.left-content{
+	padding-left: 40px;
+}
+
+.right-content{
+	padding-right: 120px;
+}
+
+.left-content > label > h2{
+	font-size: 3rem;
+	color: #000000;
+}
+
+.wrapper div{
+	padding: 10px 0px;
+}
+
+#countryName{
+	width: 450px;
+	height: 35px;
+	border-radius: 3px;
+	font-size: 1.2rem;
+}
+
+.submitbtn{
+	cursor: pointer;
+	width: 150px;
+	height: 35px;
+	border-radius: 3px;
+	font-size: 1.5rem;
+	margin: 10px 0px;
+}

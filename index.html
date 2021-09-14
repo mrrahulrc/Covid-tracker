@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Covid Tracker</title>
+	<link rel="icon" type="image/png" href="./images/favicon.png"/>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+
+<div class="header">
+	
+	<div class="main-header">
+
+		<div class="main-header-content"> 
+			<h1> Covid Tracker </h1> 
+		</div>
+		
+		<div class="main-header-content">
+			<h1>
+					Stay Home
+			</h1> 
+
+			<h1 id="content-padding">
+				Stay Safe
+			</h1>
+		</div>
+	
+	</div>
+
+	<section class="body">
+		
+		<div class="left-content">
+			<label> <h2> Enter The Country Name </h2></label>
+			<br>
+				<input type="text" name="countryName" id="countryName" >
+			<br>
+			<button class="submitbtn" id="submitbtn"> submit </button>
+			<br>
+
+			<div class="wrapper">
+
+					<h2> Total Confirm </h2>
+						<div class="confirmCases" id="confirmCases"> 0000 </div>
+
+					<h2> Total Deaths </h2>
+						<div class="deathCases" id="deathCases"> 0000 </div>
+			
+					<h2> Total Recovered </h2>
+						<div class="recoveredCases" id="recoveredCases"> 0000 </div>
+			</div>
+
+		</div>
+
+		<div class="right-content">
+			<img src="./images/people.png" height="400" width="700">
+		</div>
+
+	</section>
+
+</div>
+
+	<script src="./app.js"></script>
+</body>
+</html>
